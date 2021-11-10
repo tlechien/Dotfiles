@@ -25,15 +25,14 @@
     // To learn more about profiles, visit https://aka.ms/terminal-profile-settings
     "profiles":
     {
-        "defaults":
-        {
-			 "hidden": false,
-		     "colorScheme": "Dracula",
-		     "fontFace": "Cascadia Code PL",
-		     "fontSize": 10,
-		     "backgroundImageOpacity": 0.2,
-		     "acrylicOpacity": 0.8,
-		     "useAcrylic": false,
+        "defaults": {
+            "fontFace": "Fira Code",
+            "colorScheme": "Amiya",
+            "fontSize": 10,
+            "backgroundImageOpacity": 0.7,
+            "acrylicOpacity": 0.8,
+            "useAcrylic": true,
+            "backgroundImage": "%UserProfile%/Documents/Themes/amiya.png"
         },
         "list":
         [
@@ -88,6 +87,27 @@
     // Add custom color schemes to this array.
     // To learn more about color schemes, visit https://aka.ms/terminal-color-schemes
     "schemes": [
+        {
+			"name" : "Amiya",
+			"foreground" : "#cac5c1",
+			"background" : "#2b2b2b",
+			"black" : "#2b2b2b",
+			"red" : "#3E5C64",
+			"green" : "#4D4B4F",
+			"yellow" : "#696261",
+			"blue" : "#907466",
+			"purple" : "#A28977",
+			"cyan" : "#698590",
+			"white" : "#cac5c1",
+			"brightBlack" : "#4d4d4d",
+			"brightRed" : "#3E5C64",
+			"brightGreen" : "#4D4B4F",
+			"brightYellow" : "#696261",
+			"brightBlue" : "#907466",
+			"brightPurple" : "#A28977",
+			"brightCyan" : "#698590",
+			"brightWhite" : "#cac5c1"
+		},
 		{
 			"name" : "Dracula",
 			"background" : "#272935",
