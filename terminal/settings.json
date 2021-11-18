@@ -52,8 +52,14 @@
             {
                 // Make changes here to the cmd.exe profile.
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
-                "name": "Invite de commandes",
+                "name": "Command Prompt",
                 "commandline": "cmd.exe",
+                "hidden": false
+            },
+            {
+                "guid": "{e103fc3f-ee18-4a8f-a954-392d04a4871f}",
+                "name": "Clink",
+                "commandline": "cmd.exe /s /k \"%UserProfile%\\Documents\\clink\\clink_x64.exe inject\" && doskey.exe /macrofile=%LOCALAPPDATA%\\clink\\aliases",
                 "hidden": false
             },
             {

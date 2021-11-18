@@ -1,0 +1,11 @@
+alias=doskey
+doskey_list=doskey /MACROS
+clink="C:\Users\tlechien\Documents\clink\clink-1.0.0a1.823d84/clink_x64.exe" $*
+sshvm=ssh 192.168.24.128
+alias_list=doskey_list
+doskey_save=doskey /macros>%LOCALAPPDATA%\clink\aliases
+doskey_reload=doskey /macrofile=%LOCALAPPDATA%\clink\aliases
+alias_save=doskey_save
+ssh_vm=sshvm
+history="C:\Users\tlechien\Documents\clink\clink-1.0.0a1.823d84/clink_x64.exe" history $*
+rickroll=curl ascii.live/rick
